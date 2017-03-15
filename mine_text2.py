@@ -1,3 +1,16 @@
+""" This program performs two functions. The first is a simple sentiment analysis
+    using vaderSentiment. The second creates a histogram of the n (in this case 10)
+    most common words in the text (koran.txt - an excerpt from the koran) after
+    removing words in the nltk stopwords library which contains common
+    insignificant english words like a, and, the, he, him, etc. which are some of
+    the most common words in any text and don't provide much interesting
+    information about the specific text we are mining.
+
+    Author : Lakhvinder Jordan <ljordan51@gmail.com>
+    Course : Olin Software Design Spring 2017
+    Date   : 2017-02-28
+"""
+
 from nltk import word_tokenize
 from nltk.corpus import stopwords
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer

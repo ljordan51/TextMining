@@ -1,3 +1,12 @@
+""" This program gets text from a webpage @ project gutenberg and then uses pickle
+    to store that text in a file which is then used to copy and paste a selected
+    excerpt into koran.txt. This text file is used in mine_text2.py.
+
+    Author : Lakhvinder Jordan <ljordan51@gmail.com>
+    Course : Olin Software Design Spring 2017
+    Date   : 2017-02-28
+"""
+
 import pickle
 import requests
 
